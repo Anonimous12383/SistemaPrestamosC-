@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="678b2c1ef78c478dab1817a53fd7ff7f" Name="Diagram1">
+        <EntityTypeShape EntityType="PrestamosDBModel.Clientes" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrestamosDBModel.FondoEmpresa" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrestamosDBModel.Pagos" Width="1.5" PointX="6.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrestamosDBModel.Prestamos" Width="1.5" PointX="3.125" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="PrestamosDBModel.FK_Prestamos_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="PrestamosDBModel.FK_Pagos_Prestamos" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
