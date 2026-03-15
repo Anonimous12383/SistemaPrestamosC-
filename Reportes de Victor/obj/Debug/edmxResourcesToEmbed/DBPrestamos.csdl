@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PrestamosDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="ClienteId" />
+    </Key>
+    <Property Name="ClienteId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreCompleto" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="120" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Telefono" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Direccion" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Garantia" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SueldoMensual" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Prestamos" Relationship="Self.FK_Prestamos_Clientes" FromRole="Clientes" ToRole="Prestamos" />
+  </EntityType>
+  <EntityType Name="FondoEmpresa">
+    <Key>
+      <PropertyRef Name="FondoEmpresaId" />
+    </Key>
+    <Property Name="FondoEmpresaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MontoDisponible" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pagos">
+    <Key>
+      <PropertyRef Name="PagoId" />
+    </Key>
+    <Property Name="PagoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PrestamoId" Type="Int32" Nullable="false" />
+    <Property Name="NumeroMes" Type="Int32" Nullable="false" />
+    <Property Name="MontoAnterior" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="InteresAPagar" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="NuevoMontoDeber" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Cuota" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="MesesRestantes" Type="Int32" Nullable="false" />
+    <Property Name="TotalAcumuladoIntereses" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="TasaPrestamo" Type="Decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="Mora" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Pagado" Type="Boolean" Nullable="false" />
+    <Property Name="FechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Prestamos" Relationship="Self.FK_Pagos_Prestamos" FromRole="Pagos" ToRole="Prestamos" />
+  </EntityType>
+  <EntityType Name="Prestamos">
+    <Key>
+      <PropertyRef Name="PrestamoId" />
+    </Key>
+    <Property Name="PrestamoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClienteId" Type="Int32" Nullable="false" />
+    <Property Name="Monto" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="PlazoMeses" Type="Int32" Nullable="false" />
+    <Property Name="TasaInteresAnual" Type="Decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="CuotaMensual" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="InteresGenerado" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="MontoTotal" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="SaldoActual" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="CantidadMoras" Type="Int32" Nullable="false" />
+    <Property Name="EsMoroso" Type="Boolean" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Clientes" Relationship="Self.FK_Prestamos_Clientes" FromRole="Prestamos" ToRole="Clientes" />
+    <NavigationProperty Name="Pagos" Relationship="Self.FK_Pagos_Prestamos" FromRole="Prestamos" ToRole="Pagos" />
+  </EntityType>
+  <Association Name="FK_Prestamos_Clientes">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+    <End Role="Prestamos" Type="Self.Prestamos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="ClienteId" />
+      </Principal>
+      <Dependent Role="Prestamos">
+        <PropertyRef Name="ClienteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pagos_Prestamos">
+    <End Role="Prestamos" Type="Self.Prestamos" Multiplicity="1" />
+    <End Role="Pagos" Type="Self.Pagos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Prestamos">
+        <PropertyRef Name="PrestamoId" />
+      </Principal>
+      <Dependent Role="Pagos">
+        <PropertyRef Name="PrestamoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PrestamosDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+    <EntitySet Name="FondoEmpresa" EntityType="Self.FondoEmpresa" />
+    <EntitySet Name="Pagos" EntityType="Self.Pagos" />
+    <EntitySet Name="Prestamos" EntityType="Self.Prestamos" />
+    <AssociationSet Name="FK_Prestamos_Clientes" Association="Self.FK_Prestamos_Clientes">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Prestamos" EntitySet="Prestamos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pagos_Prestamos" Association="Self.FK_Pagos_Prestamos">
+      <End Role="Prestamos" EntitySet="Prestamos" />
+      <End Role="Pagos" EntitySet="Pagos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

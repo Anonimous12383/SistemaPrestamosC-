@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PrestamosDBModelStoreContainer" CdmEntityContainer="PrestamosDBEntities">
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="PrestamosDBModel.Clientes">
+        <MappingFragment StoreEntitySet="Clientes">
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Garantia" ColumnName="Garantia" />
+          <ScalarProperty Name="SueldoMensual" ColumnName="SueldoMensual" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FondoEmpresa">
+      <EntityTypeMapping TypeName="PrestamosDBModel.FondoEmpresa">
+        <MappingFragment StoreEntitySet="FondoEmpresa">
+          <ScalarProperty Name="FondoEmpresaId" ColumnName="FondoEmpresaId" />
+          <ScalarProperty Name="MontoDisponible" ColumnName="MontoDisponible" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pagos">
+      <EntityTypeMapping TypeName="PrestamosDBModel.Pagos">
+        <MappingFragment StoreEntitySet="Pagos">
+          <ScalarProperty Name="PagoId" ColumnName="PagoId" />
+          <ScalarProperty Name="PrestamoId" ColumnName="PrestamoId" />
+          <ScalarProperty Name="NumeroMes" ColumnName="NumeroMes" />
+          <ScalarProperty Name="MontoAnterior" ColumnName="MontoAnterior" />
+          <ScalarProperty Name="InteresAPagar" ColumnName="InteresAPagar" />
+          <ScalarProperty Name="NuevoMontoDeber" ColumnName="NuevoMontoDeber" />
+          <ScalarProperty Name="Cuota" ColumnName="Cuota" />
+          <ScalarProperty Name="MesesRestantes" ColumnName="MesesRestantes" />
+          <ScalarProperty Name="TotalAcumuladoIntereses" ColumnName="TotalAcumuladoIntereses" />
+          <ScalarProperty Name="TasaPrestamo" ColumnName="TasaPrestamo" />
+          <ScalarProperty Name="Mora" ColumnName="Mora" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Prestamos">
+      <EntityTypeMapping TypeName="PrestamosDBModel.Prestamos">
+        <MappingFragment StoreEntitySet="Prestamos">
+          <ScalarProperty Name="PrestamoId" ColumnName="PrestamoId" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="PlazoMeses" ColumnName="PlazoMeses" />
+          <ScalarProperty Name="TasaInteresAnual" ColumnName="TasaInteresAnual" />
+          <ScalarProperty Name="CuotaMensual" ColumnName="CuotaMensual" />
+          <ScalarProperty Name="InteresGenerado" ColumnName="InteresGenerado" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+          <ScalarProperty Name="SaldoActual" ColumnName="SaldoActual" />
+          <ScalarProperty Name="CantidadMoras" ColumnName="CantidadMoras" />
+          <ScalarProperty Name="EsMoroso" ColumnName="EsMoroso" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

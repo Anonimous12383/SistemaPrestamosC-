@@ -1,0 +1,81 @@
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\x86\SqlServerSpatial170.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\x64\SqlServerSpatial170.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\arm64\SqlServerSpatial170.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\Reportes de Victor.exe.config
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\Reportes de Victor.exe
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\Reportes de Victor.pdb
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\EntityFramework.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\Microsoft.SqlServer.Server.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\EnvDTE.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\stdole.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\EntityFramework.xml
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\Microsoft.SqlServer.Server.pdb
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\Microsoft.SqlServer.Server.xml
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\obj\Debug\Reportes de Victor.csproj.AssemblyReference.cache
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\obj\Debug\Reportes de Victor.csproj.SuggestedBindingRedirects.cache
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\obj\Debug\Reportes de Victor.exe.config
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\obj\Debug\Reportes_de_Victor.FrmReporteAmortizacion.resources
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\obj\Debug\Reportes_de_Victor.Properties.Resources.resources
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\obj\Debug\Reportes de Victor.csproj.GenerateResource.cache
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\obj\Debug\Reportes de Victor.csproj.CoreCompileInputs.cache
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\obj\Debug\Reportes.F9F9EB7A.Up2Date
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\obj\Debug\Reportes de Victor.exe
+C:\Users\elp48\OneDrive\Escritorio\Reportes de Victor\SistemaPrestamosC-\Reportes de Victor\obj\Debug\Reportes de Victor.pdb
